@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "6c55645f-20c0-4888-b388-05556125f3f0",
+		"name": "Caso de Teste OpenWeather",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25548457"
+	},
+	"item": [
+		{
+			"name": "London ReqOW",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "5eeb0e808f01301a4cadb015803ee0e2",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "appid",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "query",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q=florianopolis&appid=5eeb0e808f01301a4cadb015803ee0e2&lang=pt_br",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "florianopolis"
+						},
+						{
+							"key": "appid",
+							"value": "5eeb0e808f01301a4cadb015803ee0e2"
+						},
+						{
+							"key": "lang",
+							"value": "pt_br"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

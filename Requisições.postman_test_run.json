@@ -1,0 +1,150 @@
+{
+	"id": "029d7fbc-3629-4c15-ada6-7e281ff4be42",
+	"name": "Requisições",
+	"timestamp": "2024-01-15T23:00:24.989Z",
+	"collection_id": "25548457-3ef86dbe-b99b-4031-9298-c91ad80e71d7",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 2,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-01-15T23:00:23.079Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "bbf5b599-e0be-4f27-b0f8-0abf48249ff7",
+			"name": "GET REQRES - Code Test",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 39,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"É método GET": true
+			},
+			"testPassFailCounts": {
+				"É método GET": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				39
+			],
+			"allTests": [
+				{
+					"É método GET": true
+				}
+			]
+		},
+		{
+			"id": "4c367193-7157-4b9f-8ab9-206bfa26853b",
+			"name": "GET REQRES - Response Test",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 23,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Tempo de resposta é menor 200ms": true
+			},
+			"testPassFailCounts": {
+				"Tempo de resposta é menor 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"Tempo de resposta é menor 200ms": true
+				}
+			]
+		},
+		{
+			"id": "413a25cf-51c5-4c4f-b690-62f1d76b6f57",
+			"name": "GET REQRES",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 32,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				32
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6baa7dfc-a081-4b95-8aed-cddd0c586935",
+			"name": "POST REQRES",
+			"url": "https://reqres.in/api/users",
+			"time": 449,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				449
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "51015147-edba-475d-a6a8-76f9b99f73c2",
+			"name": "PATCH REQRES",
+			"url": "https://reqres.in/api/users/36",
+			"time": 453,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				453
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 996,
+	"collection": {
+		"requests": [
+			{
+				"id": "bbf5b599-e0be-4f27-b0f8-0abf48249ff7",
+				"method": "GET"
+			},
+			{
+				"id": "4c367193-7157-4b9f-8ab9-206bfa26853b",
+				"method": "GET"
+			},
+			{
+				"id": "413a25cf-51c5-4c4f-b690-62f1d76b6f57",
+				"method": "GET"
+			},
+			{
+				"id": "6baa7dfc-a081-4b95-8aed-cddd0c586935",
+				"method": "POST"
+			},
+			{
+				"id": "51015147-edba-475d-a6a8-76f9b99f73c2",
+				"method": "PATCH"
+			}
+		]
+	}
+}
