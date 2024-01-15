@@ -1,0 +1,69 @@
+{
+	"id": "2da1e17b-6d55-4c94-aa5c-f6fb3adae7f4",
+	"name": "Requisições",
+	"timestamp": "2024-01-15T23:14:11.419Z",
+	"collection_id": "25548457-3ef86dbe-b99b-4031-9298-c91ad80e71d7",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 3,
+	"delay": "200",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-01-15T23:14:08.443Z",
+	"totalFail": 3,
+	"results": [
+		{
+			"id": "6baa7dfc-a081-4b95-8aed-cddd0c586935",
+			"name": "POST REQRES",
+			"url": "https://reqres.in/api/users",
+			"time": 605,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code é 201 - Método Post": true,
+				"Tempo de resposta menor que 200ms": false
+			},
+			"testPassFailCounts": {
+				"Status code é 201 - Método Post": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Tempo de resposta menor que 200ms": {
+					"pass": 0,
+					"fail": 3
+				}
+			},
+			"times": [
+				484,
+				453,
+				605
+			],
+			"allTests": [
+				{
+					"Status code é 201 - Método Post": true,
+					"Tempo de resposta menor que 200ms": false
+				},
+				{
+					"Status code é 201 - Método Post": true,
+					"Tempo de resposta menor que 200ms": false
+				},
+				{
+					"Status code é 201 - Método Post": true,
+					"Tempo de resposta menor que 200ms": false
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 1542,
+	"collection": {
+		"requests": [
+			{
+				"id": "6baa7dfc-a081-4b95-8aed-cddd0c586935",
+				"method": "POST"
+			}
+		]
+	}
+}
